@@ -1,74 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenido - Home</title>
+    <title>Estilos CSS</title>
+
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <style>
+        p {
+            font-size: 25px;
+            color: crimson;
+            font-style: italic;
+        }
+    </style>
 </head>
-
 <body>
-    <header>
-        <h1>Este es un titulo de mi página web</h1>
-        <!-- <h2>Este es otro titulo</h2>
-        <h3>Este es otro titulo</h3>
-        <h4>Este es otro titulo</h4>
-        <h5>Este es otro titulo</h5>
-        <h6>Este es otro titulo</h6> -->
-    </header>
+    <!-- 1rem = 16px -->
+    <p >Esto es un texto</p>
 
-    <!-- MENU -->
-    <nav style="background-color: #000E66;">
-        <ul>
-            <li>Home</li>
-            <li>Fotos</li>
-            <li>Videos</li>
-            <li>Contacto</li>
-        </ul>
-    </nav>
+    <ul>
+        <li class="texto1">Elemento 1</li>
+        <li class="texto1">Elemento 2</li>
+        <li class="texto1">Elemento 3</li>
+    </ul>
 
-    <!-- PRODUCTOS -->
-    <section>
-        <!-- ARTICULO -->
-        <article>
-            <header>
-                <hgroup>
-                    <h1>Titulo del mensaje uno</h1>
-                    <h2>Otro titulo</h2>
-                    <h3>Otro titulo 2</h3>
-                </hgroup>
-            </header>
-            <figure>
-                <img src="./imagenes/foto.png" alt="">
-                <figcaption>
-                    Esta es la red de escalab
-                </figcaption>
-            </figure>
-            <footer>
-                <p>Comentarios (0)</p>
-            </footer>
-        </article>
-        <article>
-            <header>
-                <h2>Titulo del mensaje dos</h2>
-            </header>
-            Este es el texto de mi segundo mensaje
-            <footer>
-                <blockquote>Comentarios (10)</blockquote>
-            </footer>
-        </article>
-    </section>
+    <!-- SECCION DE COMENTARIOS -->
+    <div>
+        <img src="" alt="">
+        <p>Esto es una</p>
+    </div>
 
-    <!-- BARRA LATERAL -->
-    <aside>
-        <blockquote>Mensaje uno</blockquote>
-        <p>Mensaje dos</p>
-    </aside>
 
-    <footer>
-        <p>Derechos Reservados</p>
-    </footer>
+    <p name="miTexto" style="color: #7083F9;">Esto es un texto más</p>
+
+
+    <h1>Titulo</h1>
+
+    <!-- SECCION PARA ALUMNOS -->
+    <div class="elemento2">
+        <p>Texto 1</p>
+        <p>Texto 2</p>
+        <p>Texto 3</p>
+        <p>Texto 4</p>
+        <p class="mitexto2"></p>
+    </div>
+
+    <h2 id="subTitulo">Esto es un subtitulo</h2>
+
 </body>
-
 </html>
